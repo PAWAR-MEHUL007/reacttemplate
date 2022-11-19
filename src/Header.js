@@ -15,10 +15,10 @@ function Header() {
                   <i class="fa fa-user"></i>{" "}
                   <span class="ms-1 d-none d-sm-inline-block">Sign in </span>
                 </a> */}
-                <a href="#" class="btn btn-light">
+                {/* <a href="#" class="btn btn-light">
                   <i class="fa fa-heart"></i>{" "}
                   <span class="ms-1 d-none d-sm-inline-block">Wishlist</span>
-                </a>
+                </a> */}
                 {/* <a
                   data-bs-toggle="offcanvas"
                   href="#offcanvas_cart"
@@ -29,10 +29,10 @@ function Header() {
                 </a> */}
               </div>
             </div>
-            <div class="col-lg-6 col-md-12 col-12">
+            <div class="col-lg-8 col-md-12 col-12">
               <form action="#" class="">
                 <div class="input-group">
-                <select class="form-select">
+                <select class="form-select" style={{width:"10%"}}>
                     <option value="">All type</option>
                     <option value="codex">Special</option>
                     <option value="comments">Only best</option>
@@ -90,7 +90,7 @@ function Header() {
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#">
-                  Menu item
+                 Couple shopping
                 </a>
               </li>
               <li class="nav-item">
