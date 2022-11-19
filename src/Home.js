@@ -1,3 +1,5 @@
+import Sliders from "./Slider";
+ 
 function Home2() {
   return (
     <div className="home-section">
@@ -37,7 +39,8 @@ function Home2() {
                 </nav>
               </aside>
               <div class="col-lg-9">
-                <article
+                <Sliders/>
+                {/* <article
                   class="card-banner p-5 bg-primary"
                   style={{ height: "360px" }}
                 >
@@ -54,7 +57,7 @@ function Home2() {
                       View more{" "}
                     </a>
                   </div>
-                </article>
+                </article> */}
               </div>
             </div>
           </main>
