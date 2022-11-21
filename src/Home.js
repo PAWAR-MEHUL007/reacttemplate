@@ -366,7 +366,7 @@ function Home2() {
         </div>
       </section>
 
-      <section class="padding-y">
+      {/* <section class="padding-y">
         <div class="container">
           <article class="card p-3 p-lg-5">
             <div class="row g-3">
@@ -425,7 +425,7 @@ function Home2() {
             </div>
           </article>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

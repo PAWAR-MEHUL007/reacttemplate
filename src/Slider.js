@@ -1,8 +1,27 @@
+import {Helmet} from "react-helmet";
 function Sliders(){
-    return(
-
-        
+    const imgone={
+        backgroundImage:"url(" +
+    "https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg"+")",
+        width:'50%',
+        };
+    const imgtwo={
+            backgroundImage:"url(" +
+        "https://cdn.pixabay.com/photo/2017/11/10/15/04/steak-2936531_960_720.jpg"+")",
+            width:'50%',
+            };
+            const imgthree={
+                backgroundImage:"url(" +
+            "https://cdn.pixabay.com/photo/2017/11/10/15/04/steak-2936531_960_720.jpg"+")",
+                width:'50%',
+                };
+            
+return(
 <div class="main">
+    <Helmet>
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </Helmet>
     <div class="container">
         <div class="row">
             <div class="col-md-12">
@@ -16,7 +35,7 @@ function Sliders(){
                         <div class="carousel-item active">
                             <div class="row">
                                 <div class="col-md-6 div-l">
-                                    <div className="carousel-img" style={{backgroundImage: 'url(https://cdn.pixabay.com/photo/2016/11/19/14/00/code-1839406_960_720.jpg)' }} >
+                                    <div className="carousel-img" style={imgone} >
                                         <h1 className="carousel-title">Tecnologia</h1>
                                     </div>
                                 </div>
@@ -31,7 +50,7 @@ function Sliders(){
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="col-md-6 div-l">
-                                    <div className="carousel-img" style={{backgroundImage:' url(https://cdn.pixabay.com/photo/2017/11/10/15/04/steak-2936531_960_720.jpg)'}}>
+                                    <div className="carousel-img" style={imgtwo}>
                                         <h1 className="carousel-title">Gastronomia</h1>
                                     </div>
                                 </div>
@@ -46,7 +65,7 @@ function Sliders(){
                         <div class="carousel-item">
                             <div class="row">
                                 <div class="col-md-6 div-l">
-                                    <div className="carousel-img" style={{backgroundImage: 'url(https://cdn.pixabay.com/photo/2016/01/22/16/42/eiffel-tower-1156146_960_720.jpg)'}}>
+                                    <div className="carousel-img" style={imgthree}>
                                         <h1 className="carousel-title">Cultura</h1>
                                     </div>
                                 </div>
