@@ -1,3 +1,4 @@
+
 function Header() {
   return (
     <header class="section-header">
@@ -6,7 +7,7 @@ function Header() {
           <div class="row gy-3 align-items-center">
             <div class="col-lg-2 col-sm-4 col-4">
               <a href="http://therichpost.com" class="navbar-brand">
-                RichEcom
+                ShoppingAtoZ
               </a>
             </div>
             <div class="order-lg-last col-lg-4 col-sm-8 col-8">
