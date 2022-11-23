@@ -1,9 +1,9 @@
 import Sliders from "./Slider";
- 
+const {Shopping} = require('./data.js'); 
 function Home2() {
   return (
     <div className="home-section">
-      <section class="section-intro padding-top-sm">
+      {/* <section class="section-intro padding-top-sm">
         <div class="container">
           <main class="card p-3">
             <div class="row">
@@ -40,7 +40,7 @@ function Home2() {
               </aside>
               <div class="col-lg-9">
                 <Sliders/>
-                {/* <article
+                <article
                   class="card-banner p-5 bg-primary"
                   style={{ height: "360px" }}
                 >
@@ -57,12 +57,12 @@ function Home2() {
                       View more{" "}
                     </a>
                   </div>
-                </article> */}
+                </article>
               </div>
             </div>
           </main>
         </div>
-      </section>
+      </section> */}
 
       <section class="padding-top">
         <div class="container">
@@ -70,162 +70,40 @@ function Home2() {
             <h3 class="section-title">New products</h3>
           </header>
           <div class="row">
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <figure class="card card-product-grid">
-                <a href="#" class="img-wrap">
-                  <span class="topbar">
-                    {" "}
-                    <b class="badge bg-success"> Offer </b>{" "}
-                  </span>
-                  <img src="assets/images/items/12.webp" />
-                </a>
-                <figcaption class="info-wrap border-top">
-                  <a href="#" class="float-end btn btn-light btn-icon">
-                    {" "}
-                    <i class="fa fa-heart"></i>{" "}
-                  </a>
-                  <a href="#" class="title text-truncate">
-                    Blue T-shirt for Men
-                  </a>
-                  <small class="text-muted">Sizes: S, M, XL</small>
-                  <div class="price-wrap">
-                    <span class="price">$15.90</span>{" "}
-                    <del class="price-old">$20</del>
-                  </div>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <figure class="card card-product-grid">
-                <a href="#" class="img-wrap">
-                  <img src="assets/images/items/11.webp" />
-                </a>
-                <figcaption class="info-wrap border-top">
-                  <a href="#" class="float-end btn btn-light btn-icon">
-                    {" "}
-                    <i class="fa fa-heart"></i>{" "}
-                  </a>
-                  <a href="#" class="title text-truncate">
-                    Warm Winter Jacket
-                  </a>
-                  <small class="text-muted">Sizes: S, M, XL</small>
-                  <div class="price">$72.90</div>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <figure class="card card-product-grid">
-                <a href="#" class="img-wrap">
-                  <img src="assets/images/items/10.webp" />
-                </a>
-                <figcaption class="info-wrap border-top">
-                  <a href="#" class="float-end btn btn-light btn-icon">
-                    {" "}
-                    <i class="fa fa-heart"></i>{" "}
-                  </a>
-                  <a href="#" class="title text-truncate">
-                    Mens T-shirt Cotton Base
-                  </a>
-                  <small class="text-muted">Blue, White, Black</small>
-                  <div class="price">$29.98</div>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <figure class="card card-product-grid">
-                <a href="#" class="img-wrap">
-                  <img src="assets/images/items/9.webp" />
-                </a>
-                <figcaption class="info-wrap border-top">
-                  <a href="#" class="float-end btn btn-light btn-icon">
-                    {" "}
-                    <i class="fa fa-heart"></i>{" "}
-                  </a>
-                  <a href="#" class="title text-truncate">
-                    Men's Denim Shorts Jeans
-                  </a>
-                  <small class="text-muted">Blue, White, Black</small>
-                  <div class="price">$75.50</div>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <figure class="card card-product-grid">
-                <a href="#" class="img-wrap">
-                  <img src="assets/images/items/5.webp" />
-                </a>
-                <figcaption class="info-wrap border-top">
-                  <a href="#" class="float-end btn btn-light btn-icon">
-                    {" "}
-                    <i class="fa fa-heart"></i>{" "}
-                  </a>
-                  <a href="#" class="title text-truncate">
-                    Apple Watch Series 1 Sport Case 38mm Black
-                  </a>
-                  <small class="text-muted">5GB, 10GB, 24GB</small>
-                  <div class="price">$75.50</div>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <figure class="card card-product-grid">
-                <a href="#" class="img-wrap">
-                  <img src="assets/images/items/6.webp" />
-                </a>
-                <figcaption class="info-wrap border-top">
-                  <a href="#" class="float-end btn btn-light btn-icon">
-                    {" "}
-                    <i class="fa fa-heart"></i>{" "}
-                  </a>
-                  <a href="#" class="title text-truncate">
-                    Gaming Headset 32db Blackbuilt in mic
-                  </a>
-                  <small class="text-muted">Black, Blue, Green</small>
-                  <div class="price">$99.50</div>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <figure class="card card-product-grid">
-                <a href="#" class="img-wrap">
-                  <img src="assets/images/items/7.webp" />
-                </a>
-                <figcaption class="info-wrap border-top">
-                  <a href="#" class="float-end btn btn-light btn-icon">
-                    {" "}
-                    <i class="fa fa-heart"></i>{" "}
-                  </a>
-                  <a href="#" class="title text-truncate">
-                    Gaming Headset 32db Blackbuilt in mic
-                  </a>
-                  <small class="text-muted">Sizes: S, M, XL</small>
-                  <div class="price">$41.50</div>
-                </figcaption>
-              </figure>
-            </div>
-            <div class="col-lg-3 col-md-6 col-sm-6">
-              <figure class="card card-product-grid">
-                <a href="#" class="img-wrap">
-                  <img src="assets/images/items/8.webp" />
-                </a>
-                <figcaption class="info-wrap border-top">
-                  <a href="#" class="float-end btn btn-light btn-icon">
-                    {" "}
-                    <i class="fa fa-heart"></i>{" "}
-                  </a>
-                  <a href="#" class="title text-truncate">
-                    Slim fit T-shirt for men
-                  </a>
-                  <small class="text-muted">Sizes: S, M, XL</small>
-                  <div class="price">$75.50</div>
-                </figcaption>
-              </figure>
-            </div>
+            {Shopping.product.map((item)=>
+                            <div class="col-lg-3 col-md-6 col-sm-6">
+                            <figure class="card card-product-grid">
+                              <a href={item.link} class="img-wrap">
+                                <span class="topbar">
+                                  {" "}
+                                  <b class="badge bg-success"> Offer </b>{" "}
+                                </span>
+                                <img src={item.image} />
+                              </a>
+                              <figcaption class="info-wrap border-top">
+                                <a href="#" class="float-end btn btn-light btn-icon">
+                                  {" "}
+                                  <i class="fa fa-heart"></i>{" "}
+                                </a>
+                                <a href="#" class="title text-truncate">
+                                  {item.name}
+                                </a>
+                                <small class="text-muted">Sizes: S, M, XL</small>
+                                <div class="price-wrap">
+                                  <span class="price">{item.price}</span>{" "}
+                                  <del class="price-old">{item.oldprice}</del>
+                                  <button class="buybutton">Buy Now</button>
+                                </div>
+                              </figcaption>
+                            </figure>
+                          </div>            
+            )}
+
           </div>
         </div>
       </section>
 
-      <section class="padding-top">
+      {/* <section class="padding-top">
         <div class="container">
           <div class="row gy-4">
             <aside class="col-lg-6">
@@ -294,9 +172,9 @@ function Home2() {
             </aside>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section class="padding-top">
+      {/* <section class="padding-top">
         <div class="container">
           <header class="section-heading">
             <h3 class="section-title">Recently viewed</h3>
@@ -364,7 +242,7 @@ function Home2() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* <section class="padding-y">
         <div class="container">

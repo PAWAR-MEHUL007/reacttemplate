@@ -35,9 +35,8 @@ function Header() {
                 <div class="input-group">
                 <select class="form-select" style={{width:"10%"}}>
                     <option value="">All type</option>
-                    <option value="codex">Special</option>
-                    <option value="comments">Only best</option>
-                    <option value="content">Latest</option>
+                    <option value="codex">Women's</option>
+                    <option value="comments">Men's</option>
                   </select>
                   <input
                     type="search"
@@ -55,7 +54,7 @@ function Header() {
         </div>
       </section>
 
-      <nav class="navbar navbar-light  border-top navbar-expand-lg">
+      {/* <nav class="navbar navbar-light  border-top navbar-expand-lg">
         <div class="container">
           <button
             class="navbar-toggler border"
@@ -131,7 +130,7 @@ function Header() {
             </ul>
           </div>
         </div>
-      </nav>
+      </nav> */}
     </header>
   );
 }

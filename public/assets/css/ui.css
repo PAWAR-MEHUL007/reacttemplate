@@ -5,6 +5,7 @@ a.title,
 .title a,
 a .title {
   text-decoration: none;
+  font-family:Arial,sans-serif;
 }
 a.title:hover,
 .title a:hover,
@@ -1481,11 +1482,6 @@ ul.row {
 .search-button{
     background-color:#2CB459;
 }
-
-
-
-
-
 #MiCarousel{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -1535,4 +1531,17 @@ ul.row {
 
 .carousel-controls{
   display: none;
+}
+.buybutton{
+  margin: 10px;
+  border-radius:20px;
+  border: solid 0px ;
+  padding: 5px;
+  width: 100px;
+  background-color: lightgreen;
+  color:green;
+}
+.buybutton:hover{
+  color:brown;
+  background-color:lightsalmon;
 }

@@ -4,9 +4,9 @@ import Home from "./Home";
 function App() {
   return (
     <div className="App">
-      <Header></Header>
+      {/* <Header></Header> */}
       <Home></Home>
-      <Footer></Footer>
+      {/* <Footer></Footer> */}
     </div>
   );
 }
